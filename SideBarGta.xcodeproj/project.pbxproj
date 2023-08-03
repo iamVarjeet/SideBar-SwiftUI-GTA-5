@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBBBC0AA2A7B9E4800EF8A27 /* SideBarGtaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0A92A7B9E4800EF8A27 /* SideBarGtaApp.swift */; };
+		FBBBC0AC2A7B9E4800EF8A27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0AB2A7B9E4800EF8A27 /* ContentView.swift */; };
+		FBBBC0AE2A7B9E4900EF8A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0AD2A7B9E4900EF8A27 /* Assets.xcassets */; };
+		FBBBC0B12A7B9E4900EF8A27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0B02A7B9E4900EF8A27 /* Preview Assets.xcassets */; };
+		FBBBC0C02A7B9EEA00EF8A27 /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0BB2A7B9EEA00EF8A27 /* SignupPage.swift */; };
+		FBBBC0C12A7B9EEA00EF8A27 /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0BC2A7B9EEA00EF8A27 /* SettingPage.swift */; };
+		FBBBC0C22A7B9EEA00EF8A27 /* LogoutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0BD2A7B9EEA00EF8A27 /* LogoutPage.swift */; };
+		FBBBC0C32A7B9EEA00EF8A27 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0BE2A7B9EEA00EF8A27 /* Homepage.swift */; };
+		FBBBC0C42A7B9EEA00EF8A27 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0BF2A7B9EEA00EF8A27 /* ProfilePage.swift */; };
+		FBBBC0C62A7B9F9100EF8A27 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBC0C52A7B9F9100EF8A27 /* SideBarView.swift */; };
+		FBBBC0D22A7BA11300EF8A27 /* LEMONMILK-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0CA2A7BA11300EF8A27 /* LEMONMILK-LightItalic.otf */; };
+		FBBBC0D32A7BA11300EF8A27 /* LEMONMILK-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0CB2A7BA11300EF8A27 /* LEMONMILK-Medium.otf */; };
+		FBBBC0D42A7BA11300EF8A27 /* LEMONMILK-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0CC2A7BA11300EF8A27 /* LEMONMILK-MediumItalic.otf */; };
+		FBBBC0D52A7BA11300EF8A27 /* LEMONMILK-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0CD2A7BA11300EF8A27 /* LEMONMILK-BoldItalic.otf */; };
+		FBBBC0D62A7BA11300EF8A27 /* LEMONMILK-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0CE2A7BA11300EF8A27 /* LEMONMILK-RegularItalic.otf */; };
+		FBBBC0D72A7BA11300EF8A27 /* LEMONMILK-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0CF2A7BA11300EF8A27 /* LEMONMILK-Regular.otf */; };
+		FBBBC0D82A7BA11300EF8A27 /* LEMONMILK-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0D02A7BA11300EF8A27 /* LEMONMILK-Bold.otf */; };
+		FBBBC0D92A7BA11300EF8A27 /* LEMONMILK-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0D12A7BA11300EF8A27 /* LEMONMILK-Light.otf */; };
+		FBBBC0DE2A7BAC0400EF8A27 /* GunShot.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0DC2A7BAC0400EF8A27 /* GunShot.wav */; };
+		FBBBC0DF2A7BAC0400EF8A27 /* DrawerClose.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBBBC0DD2A7BAC0400EF8A27 /* DrawerClose.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBBBC0A62A7B9E4800EF8A27 /* SideBarGta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideBarGta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBBC0A92A7B9E4800EF8A27 /* SideBarGtaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarGtaApp.swift; sourceTree = "<group>"; };
+		FBBBC0AB2A7B9E4800EF8A27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBBBC0AD2A7B9E4900EF8A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBBBC0B02A7B9E4900EF8A27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBBBC0BB2A7B9EEA00EF8A27 /* SignupPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupPage.swift; sourceTree = "<group>"; };
+		FBBBC0BC2A7B9EEA00EF8A27 /* SettingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		FBBBC0BD2A7B9EEA00EF8A27 /* LogoutPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutPage.swift; sourceTree = "<group>"; };
+		FBBBC0BE2A7B9EEA00EF8A27 /* Homepage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		FBBBC0BF2A7B9EEA00EF8A27 /* ProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		FBBBC0C52A7B9F9100EF8A27 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		FBBBC0CA2A7BA11300EF8A27 /* LEMONMILK-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-LightItalic.otf"; sourceTree = "<group>"; };
+		FBBBC0CB2A7BA11300EF8A27 /* LEMONMILK-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Medium.otf"; sourceTree = "<group>"; };
+		FBBBC0CC2A7BA11300EF8A27 /* LEMONMILK-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-MediumItalic.otf"; sourceTree = "<group>"; };
+		FBBBC0CD2A7BA11300EF8A27 /* LEMONMILK-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-BoldItalic.otf"; sourceTree = "<group>"; };
+		FBBBC0CE2A7BA11300EF8A27 /* LEMONMILK-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-RegularItalic.otf"; sourceTree = "<group>"; };
+		FBBBC0CF2A7BA11300EF8A27 /* LEMONMILK-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Regular.otf"; sourceTree = "<group>"; };
+		FBBBC0D02A7BA11300EF8A27 /* LEMONMILK-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Bold.otf"; sourceTree = "<group>"; };
+		FBBBC0D12A7BA11300EF8A27 /* LEMONMILK-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Light.otf"; sourceTree = "<group>"; };
+		FBBBC0DA2A7BA12F00EF8A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FBBBC0DC2A7BAC0400EF8A27 /* GunShot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GunShot.wav; sourceTree = "<group>"; };
+		FBBBC0DD2A7BAC0400EF8A27 /* DrawerClose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DrawerClose.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBBC0A32A7B9E4800EF8A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBBC09D2A7B9E4800EF8A27 = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0A82A7B9E4800EF8A27 /* SideBarGta */,
+				FBBBC0A72A7B9E4800EF8A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBBC0A72A7B9E4800EF8A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0A62A7B9E4800EF8A27 /* SideBarGta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBBC0A82A7B9E4800EF8A27 /* SideBarGta */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0DA2A7BA12F00EF8A27 /* Info.plist */,
+				FBBBC0C72A7BA0FA00EF8A27 /* HelperFiles */,
+				FBBBC0BA2A7B9EEA00EF8A27 /* Screens */,
+				FBBBC0A92A7B9E4800EF8A27 /* SideBarGtaApp.swift */,
+				FBBBC0AB2A7B9E4800EF8A27 /* ContentView.swift */,
+				FBBBC0C52A7B9F9100EF8A27 /* SideBarView.swift */,
+				FBBBC0AD2A7B9E4900EF8A27 /* Assets.xcassets */,
+				FBBBC0AF2A7B9E4900EF8A27 /* Preview Content */,
+			);
+			path = SideBarGta;
+			sourceTree = "<group>";
+		};
+		FBBBC0AF2A7B9E4900EF8A27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0B02A7B9E4900EF8A27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBBBC0BA2A7B9EEA00EF8A27 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0BB2A7B9EEA00EF8A27 /* SignupPage.swift */,
+				FBBBC0BC2A7B9EEA00EF8A27 /* SettingPage.swift */,
+				FBBBC0BD2A7B9EEA00EF8A27 /* LogoutPage.swift */,
+				FBBBC0BE2A7B9EEA00EF8A27 /* Homepage.swift */,
+				FBBBC0BF2A7B9EEA00EF8A27 /* ProfilePage.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FBBBC0C72A7BA0FA00EF8A27 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0DB2A7BABF200EF8A27 /* AudioFiles */,
+				FBBBC0C82A7BA11300EF8A27 /* Fonts */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		FBBBC0C82A7BA11300EF8A27 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0C92A7BA11300EF8A27 /* Lemon Milk */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FBBBC0C92A7BA11300EF8A27 /* Lemon Milk */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0CA2A7BA11300EF8A27 /* LEMONMILK-LightItalic.otf */,
+				FBBBC0CB2A7BA11300EF8A27 /* LEMONMILK-Medium.otf */,
+				FBBBC0CC2A7BA11300EF8A27 /* LEMONMILK-MediumItalic.otf */,
+				FBBBC0CD2A7BA11300EF8A27 /* LEMONMILK-BoldItalic.otf */,
+				FBBBC0CE2A7BA11300EF8A27 /* LEMONMILK-RegularItalic.otf */,
+				FBBBC0CF2A7BA11300EF8A27 /* LEMONMILK-Regular.otf */,
+				FBBBC0D02A7BA11300EF8A27 /* LEMONMILK-Bold.otf */,
+				FBBBC0D12A7BA11300EF8A27 /* LEMONMILK-Light.otf */,
+			);
+			path = "Lemon Milk";
+			sourceTree = "<group>";
+		};
+		FBBBC0DB2A7BABF200EF8A27 /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBC0DD2A7BAC0400EF8A27 /* DrawerClose.wav */,
+				FBBBC0DC2A7BAC0400EF8A27 /* GunShot.wav */,
+			);
+			path = AudioFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBBC0A52A7B9E4800EF8A27 /* SideBarGta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBBC0B42A7B9E4900EF8A27 /* Build configuration list for PBXNativeTarget "SideBarGta" */;
+			buildPhases = (
+				FBBBC0A22A7B9E4800EF8A27 /* Sources */,
+				FBBBC0A32A7B9E4800EF8A27 /* Frameworks */,
+				FBBBC0A42A7B9E4800EF8A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideBarGta;
+			productName = SideBarGta;
+			productReference = FBBBC0A62A7B9E4800EF8A27 /* SideBarGta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBBC09E2A7B9E4800EF8A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FBBBC0A52A7B9E4800EF8A27 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FBBBC0A12A7B9E4800EF8A27 /* Build configuration list for PBXProject "SideBarGta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBBC09D2A7B9E4800EF8A27;
+			productRefGroup = FBBBC0A72A7B9E4800EF8A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBBC0A52A7B9E4800EF8A27 /* SideBarGta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBBC0A42A7B9E4800EF8A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBBC0B12A7B9E4900EF8A27 /* Preview Assets.xcassets in Resources */,
+				FBBBC0D32A7BA11300EF8A27 /* LEMONMILK-Medium.otf in Resources */,
+				FBBBC0D42A7BA11300EF8A27 /* LEMONMILK-MediumItalic.otf in Resources */,
+				FBBBC0D72A7BA11300EF8A27 /* LEMONMILK-Regular.otf in Resources */,
+				FBBBC0AE2A7B9E4900EF8A27 /* Assets.xcassets in Resources */,
+				FBBBC0D22A7BA11300EF8A27 /* LEMONMILK-LightItalic.otf in Resources */,
+				FBBBC0DF2A7BAC0400EF8A27 /* DrawerClose.wav in Resources */,
+				FBBBC0D82A7BA11300EF8A27 /* LEMONMILK-Bold.otf in Resources */,
+				FBBBC0D62A7BA11300EF8A27 /* LEMONMILK-RegularItalic.otf in Resources */,
+				FBBBC0D52A7BA11300EF8A27 /* LEMONMILK-BoldItalic.otf in Resources */,
+				FBBBC0D92A7BA11300EF8A27 /* LEMONMILK-Light.otf in Resources */,
+				FBBBC0DE2A7BAC0400EF8A27 /* GunShot.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBBC0A22A7B9E4800EF8A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBBC0AC2A7B9E4800EF8A27 /* ContentView.swift in Sources */,
+				FBBBC0C62A7B9F9100EF8A27 /* SideBarView.swift in Sources */,
+				FBBBC0C22A7B9EEA00EF8A27 /* LogoutPage.swift in Sources */,
+				FBBBC0AA2A7B9E4800EF8A27 /* SideBarGtaApp.swift in Sources */,
+				FBBBC0C42A7B9EEA00EF8A27 /* ProfilePage.swift in Sources */,
+				FBBBC0C32A7B9EEA00EF8A27 /* Homepage.swift in Sources */,
+				FBBBC0C02A7B9EEA00EF8A27 /* SignupPage.swift in Sources */,
+				FBBBC0C12A7B9EEA00EF8A27 /* SettingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBBBC0B22A7B9E4900EF8A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBBBC0B32A7B9E4900EF8A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBBC0B52A7B9E4900EF8A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SideBarGta/Preview Content\"";
+				DEVELOPMENT_TEAM = BN633WLP5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SideBarGta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varjeet.SideBarGta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBBBC0B62A7B9E4900EF8A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SideBarGta/Preview Content\"";
+				DEVELOPMENT_TEAM = BN633WLP5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SideBarGta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.varjeet.SideBarGta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBBC0A12A7B9E4800EF8A27 /* Build configuration list for PBXProject "SideBarGta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBBC0B22A7B9E4900EF8A27 /* Debug */,
+				FBBBC0B32A7B9E4900EF8A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBBC0B42A7B9E4900EF8A27 /* Build configuration list for PBXNativeTarget "SideBarGta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBBC0B52A7B9E4900EF8A27 /* Debug */,
+				FBBBC0B62A7B9E4900EF8A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBBC09E2A7B9E4800EF8A27 /* Project object */;
+}
